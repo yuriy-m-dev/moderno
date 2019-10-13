@@ -49,7 +49,7 @@ $(function(){
     $('input[type="file"], select').styler();
 
     $('.icon-th-list').on('click', function(){
-        $('.products__item').addClass('list');
+        $('.product-page__items .products__item').addClass('list');
         $('.icon-th-list').addClass('active');
         $('.icon-th-large').removeClass('active');
     });
