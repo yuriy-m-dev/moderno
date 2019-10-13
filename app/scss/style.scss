@@ -1094,6 +1094,9 @@
             color: $green;
         }
     }
+    .icon-th-list{
+        margin-left: 7px;
+    }
 }
 .product-page__filter-sort{
     color: #707070;
@@ -1104,10 +1107,12 @@
 button.icon-sort-amount-desc{
     font-size: 18px;
     color: #455a64;
+    margin-right: 10px;
 }
 button.icon-unsorted{
     font-size: 14px;
     color: #707070;
+    margin-left: 15px;
 }
 .product-page__content{
     .products__item{
